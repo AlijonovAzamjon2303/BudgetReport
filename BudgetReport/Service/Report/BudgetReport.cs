@@ -6,12 +6,16 @@ using BudgetReport.Service.Database;
 
 namespace BudgetReport.Service.Report
 {
-    internal class BudgetRepot : IReport
+    internal class BudgetReport : IReport
     {
         private IDatabase database;
-        public BudgetRepot()
+        public BudgetReport()
         {
             this.database = new MySql();
+        }
+        public BudgetReport(IDatabase database)
+        {
+            this.database = database;
         }
         public List<string> Open(string date)
         {
