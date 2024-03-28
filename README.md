@@ -27,3 +27,6 @@ Hozir DIP qo'llangandan keyin dastur qanday ishlayotkani haqida qisqacha ma'lumo
 #### IReport
 ![image](https://github.com/AlijonovAzamjon2303/BudgetReport/assets/112892881/4952fde5-e003-4f2a-bca9-3f9d513e5c03)  
 IDatabase qabul qiladigan constructor orqali biz Dependency Injection methodini qo'lladik. Bu esa bog'liqlikni tashqaridan boshqarishga yordam beradi.
+
+# Xulosa
+> Dasturimizda Abstraksiyalardan foydalanish bizga ko'p foydalar keltiradi. Xususan, uni kengaytirish oson va sarflanadigan vqtni kamaytirib beradi.
